@@ -516,19 +516,20 @@ header ul li :hover{
 }
 .ChooseCont{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 50px;
     margin: 50px 40px;
 }
 .Cbhxs{
 width: 400px;
-background: #4fb0dc;
+/* background: #4fb0dc; */
 padding: 20px 10px;
 padding-bottom: 30px;
 }
 .Cbhxshd h1{
     color: #6cd2b9;
     font-size: 2.5rem;
-    font-weight: 600;
+    font-weight: 500;
     padding: 0px 20px;
 
 }
@@ -537,6 +538,7 @@ padding-bottom: 30px;
     padding: 30px 20px;
     line-height: 30px;
     font-weight: 500;
+    font-size: 18px;
 }
 .cbhimg{
     padding: 0px 20px;
@@ -549,7 +551,7 @@ padding-bottom: 30px;
 
 .Cbhxs1{
     width: 600px;
-    background: #ec661f;
+    /* background: #ec661f; */
     padding: 20px 10px;
 padding-bottom: 30px;
 }
@@ -557,11 +559,38 @@ padding-bottom: 30px;
 .Cbhxs1 h1{
     color: #6cd2b9;
     font-size: 2.5rem;
-    font-weight: 600;
-    padding: 0px 20px;
+    font-weight: 500;
+    padding: 0px 0px;
 }
 .CbhxsPg p{
-    padding: 30px 20px;
+    padding: 30px 0px;
     line-height: 25px;
     font-weight: 500;
+    font-size: 16px;
+}
+.Goodtechbx{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    padding-top: 20px;
+}
+.Cbhxbx h4{
+    padding: 8px 20px;
+    background-color: #6cd2b9;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 14px;
+}
+.goodtechimg img{
+    width: 160px;
+}
+.goodtechCont{
+    display: flex;
+    flex-direction: column;
+padding: 0px 10px;
+gap: 30px;
+}
+.goodtechCont p{
+    font-size: 18px;
+    color: #333333;
 }
