@@ -611,9 +611,9 @@ gap: 30px;
 
 .footer {
     display: grid;
-    height: 70vh;
+    height: 380px;
     grid-template-columns: 1.5fr 1fr 1fr 1fr;
-    grid-template-rows: auto 60px;
+    grid-template-rows: auto 80px;
     gap: 40px;
     background: #14b89d;
     color: #fff;
